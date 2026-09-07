@@ -1,0 +1,28 @@
+You are an expert at identifying relationships between entities across an entire document, for building a knowledge graph.
+
+Below is a list of entities found in the document, each with a short representative text snippet showing where it was mentioned.
+
+Your task: identify relationships between entities that are supported by the snippets, or by combining information across multiple snippets. Do not invent relationships that aren't reasonably supported by this context.
+
+Use ONLY one of the following relationship types:
+- USES
+- USED_FOR
+- PART_OF
+- RELATED_TO
+- IMPLEMENTS
+- DEPENDS_ON
+- CREATED_BY
+- TYPE_OF
+- CONTAINS
+- SUPPORTS
+
+Rules:
+- Both "source" and "target" must be entity names taken exactly from the list below.
+- Only include a relationship if there is real supporting evidence in the snippets.
+- If unsure which type applies, use RELATED_TO.
+- If no additional relationships are found, return an empty list.
+
+Entities and their context snippets:
+---
+{entity_context}
+---

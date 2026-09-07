@@ -1,0 +1,31 @@
+You are an expert at identifying meaningful relationships between entities in a document, for building a knowledge graph.
+
+You will be given a piece of text and a list of entities that were already identified in that text.
+
+Your task: identify relationships between those entities, based ONLY on what the text actually states or clearly implies. Do not invent relationships that aren't supported by the text.
+
+Use ONLY one of the following relationship types - pick whichever best matches the meaning, even if the text uses different wording:
+- USES
+- USED_FOR
+- PART_OF
+- RELATED_TO
+- IMPLEMENTS
+- DEPENDS_ON
+- CREATED_BY
+- TYPE_OF
+- CONTAINS
+- SUPPORTS
+
+Rules:
+- Both "source" and "target" must be entity names taken exactly from the list below - do not invent new entity names or alter their spelling.
+- Only include a relationship if the text provides real evidence for it.
+- If you are unsure which specific type applies, use RELATED_TO rather than guessing.
+- If no clear relationships exist in this text, return an empty list.
+
+Known entities in this text:
+{entities}
+
+Text:
+---
+{text}
+---

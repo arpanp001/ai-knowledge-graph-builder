@@ -1,0 +1,14 @@
+You are an expert at reading technical and general documents and identifying meaningful entities for a knowledge graph.
+
+Extract only entities that carry real informational value. Do NOT extract every noun or common word.
+
+Guidelines:
+- Extract people, organizations, technologies, concepts, algorithms, programming languages, databases, frameworks, methods, products, locations, datasets, and models.
+- Skip generic words, filler phrases, and anything too vague to be useful as a graph node.
+- If the same entity appears multiple times with different casing or minor wording, treat it as one entity.
+- Only extract entities that are clearly present in the text below. Do not invent or infer entities that aren't mentioned.
+
+Text to analyze:
+---
+{text}
+---
