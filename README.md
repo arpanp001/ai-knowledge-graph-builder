@@ -4,7 +4,7 @@
 
 Upload a PDF, TXT, or DOCX file. Watch it automatically transform into an interactive knowledge graph of entities and relationships. Ask questions and get grounded, source-cited answers powered by a hybrid Graph + Vector RAG pipeline.
 
-🔗 **[Live Demo](https://ai-knowledge-graph-builder.vercel.app)** &nbsp;|&nbsp; 🎥 *Demo video coming soon*
+🔗 **[Live Demo](https://ai-knowledge-graph-builder.vercel.app)** &nbsp;|&nbsp; 
 
 > ⚠️ **Free-tier hosting note:** this demo runs on free hosting tiers. The backend may take **30–60 seconds to wake up** on first load if it's been idle, and project/document metadata (SQLite) may reset on backend restarts — your Neo4j graph data and Gemini/embedding caches persist regardless. See [Deployment Notes](#-deployment-notes--known-limitations) below.
 
