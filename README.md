@@ -112,11 +112,7 @@ User question
 
 ---
 
-## 📸 Screenshots
 
-> *Add screenshots or a short GIF here — e.g. the graph view, the chat interface, and the "show reasoning" feature in action.*
-
----
 
 ## 📦 Getting Started (Run Locally)
 
